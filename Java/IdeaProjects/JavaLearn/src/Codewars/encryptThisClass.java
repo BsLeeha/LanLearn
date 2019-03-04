@@ -6,6 +6,9 @@ import java.util.List;
 
 // variable string: StringBuilder; char list(no, ugly toString)
 // iterate over String: only index
+// "A": .subString(1, .length-1) xxx -> .subString(1)
+// 'a' -> "97": (byte)'a' + ""/ int + string: string int!!!
+// string unmodified: regex + substring + stringbuilder
 
 public class encryptThisClass {
     public static void main(String[] args) {
@@ -13,6 +16,7 @@ public class encryptThisClass {
 
         // ugly char list toString
         List<Character> list = Arrays.asList('a', 'b', 'c', 'd');
+
         System.out.println(list);
     }
 
@@ -45,7 +49,17 @@ public class encryptThisClass {
 //
 //            result.append(" ");
 
-            result.append((str.length() == 0) ? "" : (byte)str.charAt(0) + str.replaceFirst(".(?)(.*)(?)", "$3$2$1"))
+//            StringBuilder tmpStr = new StringBuilder(str);
+//            int lastIdx = tmpStr.length() - 1;
+//            if (lastIdx > 1) {
+//                char c = tmpStr.charAt(lastIdx);
+//                tmpStr.setCharAt(lastIdx, tmpStr.charAt(1));
+//                tmpStr.setCharAt(1, tmpStr.charAt(lastIdx));
+//            }
+
+            result.append((str.length() == 0) ? "" : (byte)str.charAt(0) +
+                    (str.length() < 3 ? str.substring(1)
+                    : str.replaceFirst(".(.)(.*)(.)", "$3$2$1")))       // string char swap
                     .append(" ");
         }
 
