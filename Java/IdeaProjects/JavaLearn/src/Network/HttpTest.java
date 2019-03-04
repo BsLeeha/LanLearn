@@ -69,7 +69,7 @@ class PostTest {
                 userAgent == null ? null : userAgent.toString(),
                 redirects == null ? -1 : Integer.parseInt(redirects.toString()));
 
-        Files.writeString(Paths.get("./test.html"), result);
+//        Files.writeString(Paths.get("./test.html"), result);
     }
 
     public static String doPost(URL url, Map<String, String> params, String userAgent, int redirects) throws IOException {

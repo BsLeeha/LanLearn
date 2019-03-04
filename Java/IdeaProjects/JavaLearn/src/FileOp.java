@@ -33,7 +33,7 @@ class FileTest {
         for (int i = 0; i < 10; i++) {
             File tempFile = new File(inFile + "." + i + ".tmp");
             // don't have to create the temp file explicitly here
-            try(var out = new FileOutputStream(tempFile)) {
+            try(OutputStream out = new FileOutputStream(tempFile)) {
                     out.write(new byte[]{'a', 'b', 'c', 'd', '\n'});
                     out.flush();
             } catch (IOException e) {
@@ -45,8 +45,8 @@ class FileTest {
         for (int i = 0; i < 10; i++) {
             File tempFile = new File(inFile + "." + i + ".tmp");
 
-            try (var in = new FileInputStream(tempFile)) {
-                try (var out = new FileOutputStream(inFile, true)) {    // append
+            try (InputStream in = new FileInputStream(tempFile)) {
+                try (OutputStream out = new FileOutputStream(inFile, true)) {    // append
                     byte[] bytes = new byte[1024];
                     int n;
                     while ((n = in.read(bytes)) != -1) {
@@ -91,8 +91,8 @@ class FileTest {
         // merge 10 temp files
         for (int i = 0 ; i < 10; i++) {
             tempFile = Paths.get(inFile1 + "." + i + ".tmp");
-            try (var in = new Scanner(tempFile)) {
-                try (var out = new PrintWriter(new FileOutputStream(inFile1.toString(), true))) {   // to append
+            try (Scanner in = new Scanner(tempFile)) {
+                try (PrintWriter out = new PrintWriter(new FileOutputStream(inFile1.toString(), true))) {   // to append
                     String tmp;
                     while (in.hasNextLine()) {
                         tmp = in.nextLine();
@@ -230,13 +230,13 @@ class ZipOp {
     public static void zipList(String zipName) {
         try {
             FileSystem fileSystem = FileSystems.newFileSystem(Paths.get(zipName), null);
-            Files.walkFileTree(fileSystem.getPath("/"), new SimpleFileVisitor<>() {
-                @Override
-                public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-                    out.println(file);
-                    return FileVisitResult.CONTINUE;
-                }
-            });
+//            Files.walkFileTree(fileSystem.getPath("/"), new SimpleFileVisitor<>() {
+//                @Override
+//                public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
+//                    out.println(file);
+//                    return FileVisitResult.CONTINUE;
+//                }
+//            });
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -138,7 +138,7 @@ class Framework3 {
 
             final int tmp = i;
 
-            var task = new Callable<Long>() {
+            Callable task = new Callable<Long>() {
                 @Override
                 public Long call() throws Exception {
                     List<Long> range = LongStream.range(1, 10 + tmp).boxed().collect(Collectors.toList());

@@ -2,8 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f5f92a-af79-4ee1-a077-392b811a0fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Network/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/Xbonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/XbonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/encryptThisClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/encryptThisClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLearn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/..0.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/ArrayOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/ArrayOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Basic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Basic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/CollectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/CollectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/ConcurrentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/ConcurrentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/ConsoleOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/ConsoleOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Container/ArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Container/ArrayListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Container/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Container/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/EmployeeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/ExceptionOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/ExceptionOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/FileOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/FileOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/FileSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/FileSystemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/FileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/FileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/FilesPathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/FilesPathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/FilesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/FilesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Framework1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Framework1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Framework2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Framework2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Framework2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Framework2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Framework3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Framework3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Framework3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Framework3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/FreshJuice$FreshJuiceSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/FreshJuice$FreshJuiceSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/FreshJuice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/FreshJuice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/HttpDownloader$DownloadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/HttpDownloader$DownloadTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/HttpDownloader$MonitorTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/HttpDownloader$MonitorTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/HttpDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/HttpDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/IO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/IO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Java8/InEventListen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Java8/InEventListen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Java8/InEventListen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Java8/InEventListen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Java8/InList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Java8/InList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Java8/InRunnable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Java8/InRunnable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Java8/InRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Java8/InRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Java8/Lambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Java8/Lambda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/ChatClient$ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/ChatClient$ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/ChatClient$UserHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/ChatClient$UserHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/ChatClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/ChatServer$RunnableTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/ChatServer$RunnableTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/ChatServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/HttpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/HttpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/PostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/PostTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/Usage1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/Usage1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/Usage2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/Usage2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/OOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/OOP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/PathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/PathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Polynomial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Polynomial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/ReflectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/ReflectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/SocketClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/SocketClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/StringOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/StringOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/WebCrawl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/WebCrawl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/ZipOp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/ZipOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/ZipOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/demomusic-java.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/ls-lR.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/ls-lR.gz.0.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConcurrentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcurrentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Network/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Network/HttpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network/HttpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Network/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network/NIOServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,22 +90,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Network/ChatServer.java">
+        <entry file="file://$PROJECT_DIR$/src/Codewars/Xbonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="59" column="31" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="169">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Network/NIOServer.java">
+        <entry file="file://$PROJECT_DIR$/src/Codewars/encryptThisClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="204">
+              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +111,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Network/ChatClient.java">
+        <entry file="file://$PROJECT_DIR$/src/Codewars/encryptThisClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,24 +123,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Network/HttpTest.java">
+        <entry file="file://$PROJECT_DIR$/src/Codewars/XbonacciTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="136">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FileOp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +143,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -119,21 +180,27 @@
         <option value="$PROJECT_DIR$/src/ChatServer.java" />
         <option value="$PROJECT_DIR$/src/NetTest.java" />
         <option value="$PROJECT_DIR$/src/HttpDownloader.java" />
-        <option value="$PROJECT_DIR$/src/FileOp.java" />
         <option value="$PROJECT_DIR$/src/Java8/Lambda.java" />
-        <option value="$PROJECT_DIR$/src/ConcurrentTest.java" />
         <option value="$PROJECT_DIR$/src/ReflectionTest.java" />
         <option value="$PROJECT_DIR$/src/Container/List.java" />
         <option value="$PROJECT_DIR$/src/Polynomial.java" />
         <option value="$PROJECT_DIR$/src/Container/ListTest.java" />
         <option value="$PROJECT_DIR$/src/TCPClient.java" />
         <option value="$PROJECT_DIR$/src/Network/TCPServer.java" />
-        <option value="$PROJECT_DIR$/src/Network/ChatServer.java" />
         <option value="$PROJECT_DIR$/src/Network/TCPClient.java" />
         <option value="$PROJECT_DIR$/src/Network/ChatClient.java" />
-        <option value="$PROJECT_DIR$/src/Network/HttpTest.java" />
         <option value="$PROJECT_DIR$/src/Network/NIO.java" />
+        <option value="$PROJECT_DIR$/src/Network/HttpTest.java" />
+        <option value="$PROJECT_DIR$/src/ConcurrentTest.java" />
+        <option value="$PROJECT_DIR$/src/FileOp.java" />
+        <option value="$PROJECT_DIR$/src/Network/ChatServer.java" />
+        <option value="$USER_HOME$/Desktop/MOOC18-06/src/nio/NioServer.java" />
         <option value="$PROJECT_DIR$/src/Network/NIOServer.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/XbonacciTest.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/Xbonacci.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/encryptThis.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/encryptThisClassTest.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/encryptThisClass.java" />
       </list>
     </option>
   </component>
@@ -143,13 +210,14 @@
     <option name="width" value="873" />
     <option name="height" value="739" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,12 +234,13 @@
               <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Network" type="462c0819:PsiDirectoryNode" />
+              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -180,7 +249,24 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551695440204" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Codewars" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,13 +280,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HttpTest">
-    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Network.ChatClient" />
+  <component name="RunManager" selected="Application.encryptThisClass">
+    <configuration name="Xbonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.Xbonacci" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Network.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +294,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Network.ChatServer" />
+    <configuration name="encryptThisClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Codewars.encryptThisClass" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Network.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,46 +307,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Network.HttpTest" />
+    <configuration name="XbonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Network.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Codewars" />
+      <option name="MAIN_CLASS_NAME" value="Codewars.XbonacciTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Container.ListTest" />
+    <configuration name="encryptThisClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Container.*" />
+          <option name="PATTERN" value="Codewars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Codewars" />
+      <option name="MAIN_CLASS_NAME" value="Codewars.encryptThisClassTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polynomial" />
+    <configuration name="encryptThisClassTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Codewars" />
+      <option name="MAIN_CLASS_NAME" value="Codewars.encryptThisClassTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Xbonacci" />
+      <item itemvalue="JUnit.XbonacciTest" />
+      <item itemvalue="Application.encryptThisClass" />
+      <item itemvalue="JUnit.encryptThisClassTest" />
+      <item itemvalue="JUnit.encryptThisClassTest.test" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpTest" />
-        <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.ChatServer" />
-        <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.Polynomial" />
+        <item itemvalue="Application.encryptThisClass" />
+        <item itemvalue="JUnit.encryptThisClassTest.test" />
+        <item itemvalue="JUnit.encryptThisClassTest" />
+        <item itemvalue="JUnit.XbonacciTest" />
+        <item itemvalue="Application.Xbonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -277,10 +383,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="XbonacciTest_tribonacci - 2019.03.04 at 14h 45m 49s.xml">
+      <configuration name="XbonacciTest.tribonacci" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="XbonacciTest_tribonacci - 2019.03.04 at 15h 12m 55s.xml">
+      <configuration name="XbonacciTest.tribonacci" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="XbonacciTest - 2019.03.04 at 15h 19m 27s.xml">
+      <configuration name="XbonacciTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="encryptThisClassTest - 2019.03.04 at 16h 14m 34s.xml">
+      <configuration name="encryptThisClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="encryptThisClassTest - 2019.03.04 at 16h 15m 21s.xml">
+      <configuration name="encryptThisClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="encryptThisClassTest_test - 2019.03.04 at 16h 32m 45s.xml">
+      <configuration name="encryptThisClassTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="encryptThisClassTest - 2019.03.04 at 16h 33m 18s.xml">
+      <configuration name="encryptThisClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="encryptThisClassTest - 2019.03.04 at 17h 37m 49s.xml">
+      <configuration name="encryptThisClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="encryptThisClassTest_test - 2019.03.04 at 17h 50m 56s.xml">
+      <configuration name="encryptThisClassTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="encryptThisClassTest_test - 2019.03.04 at 17h 51m 18s.xml">
+      <configuration name="encryptThisClassTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.19742814" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.17473525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -289,15 +428,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35081968" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3420622" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,23 +472,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/sun/nio/fs/UnixFileSystemProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="227" column="26" lean-forward="true" selection-start-line="227" selection-start-column="26" selection-end-line="227" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/sun/nio/fs/UnixFileSystemProvider.class" />
     <entry file="file://$PROJECT_DIR$/src/note.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/lang/ArithmeticException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/lang/ArithmeticException.class" />
     <entry file="file://$PROJECT_DIR$/src/EmployeeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -417,67 +544,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/Iterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/HashMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="18" />
-          <folding>
-            <element signature="e#3299#3300#0" expanded="true" />
-            <element signature="e#3338#3339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/Executors.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/ExecutorService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/Scanner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19617">
-          <caret line="420" lean-forward="true" selection-start-line="420" selection-end-line="420" />
-          <folding>
-            <element signature="e#8401#8402#0" expanded="true" />
-            <element signature="e#8453#8454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/ThreadPoolExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8683">
-          <caret line="496" column="53" selection-start-line="496" selection-start-column="50" selection-end-line="496" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/TimeUnit.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/Iterator.class" />
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/HashMap.class" />
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/Executors.class" />
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/ExecutorService.class" />
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/Scanner.class" />
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/ThreadPoolExecutor.class" />
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/TimeUnit.class" />
     <entry file="file://$PROJECT_DIR$/src/IO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -488,34 +561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/io/OutputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/lang/System.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="213" column="25" selection-start-line="213" selection-start-column="25" selection-end-line="213" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/net/URL.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="374" column="25" selection-start-line="374" selection-start-column="25" selection-end-line="374" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/sun/net/www/protocol/http/HttpURLConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="614" column="16" selection-start-line="614" selection-start-column="16" selection-end-line="614" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/io/OutputStream.class" />
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/lang/System.class" />
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/net/URL.class" />
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/sun/net/www/protocol/http/HttpURLConnection.class" />
     <entry file="file://$PROJECT_DIR$/src/StringOp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -523,13 +572,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/io/File.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/io/File.class" />
     <entry file="file://$PROJECT_DIR$/src/SocketClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -554,16 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConcurrentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -616,8 +649,8 @@
     <entry file="file://$PROJECT_DIR$/src/Network/TCPServer.java" />
     <entry file="file://$PROJECT_DIR$/src/Network/HttpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="51">
+          <caret line="69" column="48" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -626,8 +659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FileOp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+        <state relative-caret-position="578">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -636,7 +669,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Network/ChatClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="-141">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -646,8 +679,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Network/ChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="31" />
+        <state relative-caret-position="544">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#717#725#0" expanded="true" />
+            <element signature="e#894#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConcurrentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -656,8 +701,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Network/NIOServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="193">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/MOOC18-06/src/nio/NioServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" selection-start-line="14" selection-end-line="112" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="3731" column="27" selection-start-line="3731" selection-start-column="27" selection-end-line="3731" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/XbonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/encryptThisClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/Xbonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/encryptThisClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -667,9 +766,79 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaLearn</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

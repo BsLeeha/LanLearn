@@ -3,6 +3,8 @@ package Network;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.channels.ServerSocketChannel;
+import java.nio.channels.SocketChannel;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -28,7 +30,7 @@ public class ChatServer {
 
     public static void main(String[] args) {
         // create a server socket listening at port 9118
-        try (var serverSocket = new ServerSocket(9118)) {           // try-with-resource, avoid explicit close
+        try (ServerSocket serverSocket = new ServerSocket(9118)) {           // try-with-resource, avoid explicit close
             System.out.println("Listening at port: " + serverSocket.getLocalPort() + "...");
 
             int i = 1;
@@ -38,7 +40,7 @@ public class ChatServer {
 
             while (true) {
                 // wait and accept a client socket
-                var clientSocket = serverSocket.accept();                 // clientSocket is not finished in this block, so cannot use try-with-resource here
+                Socket clientSocket = serverSocket.accept();                 // clientSocket is not finished in this block, so cannot use try-with-resource here
                 System.out.println("Spawned: " + i + ", " + new Date().toString());
 
                 executor.execute(new RunnableTask(clientSocket));
@@ -80,7 +82,7 @@ public class ChatServer {
                     if (name == null) return;
 
                     synchronized (names) {
-                        if (!name.isBlank() && !names.contains(name)) {
+                        if (!name.isEmpty() && !names.contains(name)) {
                             names.add(name);
                             out.println("Welcome " + name + ", " + new Date());
                             break;
@@ -89,7 +91,7 @@ public class ChatServer {
                 }
 
                 // broadcast all other users and add user to the broadcast set
-                for (var writer : printWriters) {
+                for (PrintWriter writer : printWriters) {
                     writer.println("MESSAGE " + name + " has joined in!");
                 }
                 printWriters.add(out);
@@ -101,7 +103,7 @@ public class ChatServer {
                     String line = in.nextLine();
                     // trim leading and trailing space
                     if (line.trim().equalsIgnoreCase("/quit")) break;
-                    for (var printWriter : printWriters) {
+                    for (PrintWriter printWriter : printWriters) {
                         printWriter.println("MESSAGE " + name + ": " + line);
                     }
                 }
@@ -111,7 +113,7 @@ public class ChatServer {
                 if (out != null) printWriters.remove(out);
                 if (name != null) {
                     names.remove(name);
-                    for (var writer : printWriters)
+                    for (PrintWriter writer : printWriters)
                         writer.println("MESSAGE " + name + " has left");
                 }
                 try {
