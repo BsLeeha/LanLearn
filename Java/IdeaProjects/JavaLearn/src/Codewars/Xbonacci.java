@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Xbonacci {
     public static void main(String[] args) {
 
-        // array is an Object
+        // array is a reference type, is an Object
         // array empty: .length == 0
         // array copy:
         // 1. full array copy: Object.clone
