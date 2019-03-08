@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f5f92a-af79-4ee1-a077-392b811a0fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Codewars/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codewars/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codewars/DictionaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codewars/Ghost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codewars/God.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codewars/GodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzerImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Baidu/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Baidu/PanAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/CheckDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/CheckDigitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/RemoveChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/RemoveCharsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/findEvenIndexClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/squareOrSquareRootClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Codewars/squareOrSquareRootClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Codewars/encryptThisClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Codewars/encryptThisClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codewars/Xbonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codewars/Xbonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/ArrayOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/ArrayOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Codewars/MysteryColorAnalyzerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Codewars/MysteryColorAnalyzerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/HttpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/HttpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/PostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/PostTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/Usage1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/Usage1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearn/Network/Usage2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearn/Network/Usage2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Network/HttpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network/HttpTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,16 +35,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Codewars/Ghost.java">
+        <entry file="file://$PROJECT_DIR$/src/Baidu/PanAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-end-line="38" />
+            <state relative-caret-position="117">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#1645#1646#0" expanded="true" />
+                <element signature="e#1672#1673#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Baidu/HttpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +79,8 @@
       <find>try with re</find>
       <find>println</find>
       <find>print</find>
+      <find>PrintWriter</find>
+      <find>length</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,15 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Basic.java" />
-        <option value="$PROJECT_DIR$/src/String.java" />
-        <option value="$PROJECT_DIR$/src/StringOp.java" />
-        <option value="$PROJECT_DIR$/src/ArrayOp.java" />
-        <option value="$PROJECT_DIR$/src/OOP.java" />
-        <option value="$PROJECT_DIR$/src/Manager.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/Employee.java" />
-        <option value="$PROJECT_DIR$/src/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/note.md" />
         <option value="$PROJECT_DIR$/src/ExceptionOp.java" />
         <option value="$PROJECT_DIR$/src/SocketTest.java" />
@@ -98,7 +108,6 @@
         <option value="$PROJECT_DIR$/src/Network/TCPClient.java" />
         <option value="$PROJECT_DIR$/src/Network/ChatClient.java" />
         <option value="$PROJECT_DIR$/src/Network/NIO.java" />
-        <option value="$PROJECT_DIR$/src/Network/HttpTest.java" />
         <option value="$PROJECT_DIR$/src/ConcurrentTest.java" />
         <option value="$PROJECT_DIR$/src/FileOp.java" />
         <option value="$PROJECT_DIR$/src/Network/ChatServer.java" />
@@ -107,7 +116,6 @@
         <option value="$PROJECT_DIR$/src/Codewars/XbonacciTest.java" />
         <option value="$PROJECT_DIR$/src/Codewars/encryptThis.java" />
         <option value="$PROJECT_DIR$/src/Codewars/encryptThisClassTest.java" />
-        <option value="$PROJECT_DIR$/src/Codewars/encryptThisClass.java" />
         <option value="$PROJECT_DIR$/src/Codewars/DictionaryTest.java" />
         <option value="$PROJECT_DIR$/src/Codewars/Xbonacci.java" />
         <option value="$PROJECT_DIR$/src/Codewars/Dictionary.java" />
@@ -118,20 +126,27 @@
         <option value="$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzerImplTest.java" />
         <option value="$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzerImpl.java" />
         <option value="$PROJECT_DIR$/src/Codewars/Ghost.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/squareOrSquareRoot.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/squareOrSquareRootClassTest.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/squareOrSquareRootClass.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/CheckDigitTest.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/CheckDigit.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/RemoveCharsTest.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/encryptThisClass.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/RemoveChars.java" />
+        <option value="$PROJECT_DIR$/src/Codewars/findEvenIndexClass.java" />
+        <option value="$PROJECT_DIR$/src/ArrayOp.java" />
+        <option value="$PROJECT_DIR$/src/Network/HttpTest.java" />
+        <option value="$PROJECT_DIR$/src/Baidu/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/src/Baidu/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/src/Baidu/PanAddress.java" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="413" />
-    <option name="y" value="76" />
-    <option name="width" value="873" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1099" />
     <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -143,7 +158,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,12 +174,19 @@
               <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
+              <item name="Baidu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Network" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,16 +194,16 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551695440204" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552059285384" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../pdown-core" />
+    <property name="last_opened_file_path" value="D:/pdown-core" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -204,13 +225,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MysteryColorAnalyzerImpl">
-    <configuration name="MysteryColorAnalyzerImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.MysteryColorAnalyzerImpl" />
+  <component name="RunManager" selected="Application.PanAddress">
+    <configuration name="ArrayOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayOp" />
+      <module name="JavaLearn" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Network.HttpTest" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Codewars.*" />
+          <option name="PATTERN" value="Network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xbonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.Xbonacci" />
+    <configuration name="PanAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baidu.PanAddress" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Codewars.*" />
+          <option name="PATTERN" value="Baidu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,20 +259,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="encryptThisClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Codewars.encryptThisClass" />
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DictionaryTest.Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckDigitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
@@ -253,14 +268,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Codewars" />
-      <option name="MAIN_CLASS_NAME" value="Codewars.DictionaryTest" />
-      <option name="METHOD_NAME" value="Tests" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Codewars.CheckDigitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveCharsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
@@ -269,26 +283,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Codewars" />
-      <option name="MAIN_CLASS_NAME" value="Codewars.GodTest" />
+      <option name="MAIN_CLASS_NAME" value="Codewars.RemoveCharsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.encryptThisClass" />
-      <item itemvalue="JUnit.DictionaryTest.Tests" />
-      <item itemvalue="Application.Xbonacci" />
-      <item itemvalue="JUnit.GodTest" />
-      <item itemvalue="Application.MysteryColorAnalyzerImpl" />
+      <item itemvalue="Application.ArrayOp" />
+      <item itemvalue="Application.PanAddress" />
+      <item itemvalue="Application.HttpTest" />
+      <item itemvalue="JUnit.CheckDigitTest" />
+      <item itemvalue="JUnit.RemoveCharsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MysteryColorAnalyzerImpl" />
-        <item itemvalue="JUnit.GodTest" />
-        <item itemvalue="JUnit.DictionaryTest.Tests" />
-        <item itemvalue="Application.Xbonacci" />
-        <item itemvalue="Application.encryptThisClass" />
+        <item itemvalue="Application.PanAddress" />
+        <item itemvalue="Application.HttpTest" />
+        <item itemvalue="Application.ArrayOp" />
+        <item itemvalue="JUnit.RemoveCharsTest" />
+        <item itemvalue="JUnit.CheckDigitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -306,42 +320,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="encryptThisClassTest - 2019.03.04 at 16h 33m 18s.xml">
-      <configuration name="encryptThisClassTest" configurationId="JUnit" />
+    <history-entry file="CheckDigitTest - 2019.03.07 at 16h 49m 47s.xml">
+      <configuration name="CheckDigitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="encryptThisClassTest - 2019.03.04 at 17h 37m 49s.xml">
-      <configuration name="encryptThisClassTest" configurationId="JUnit" />
+    <history-entry file="CheckDigitTest - 2019.03.07 at 16h 49m 54s.xml">
+      <configuration name="CheckDigitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="encryptThisClassTest_test - 2019.03.04 at 17h 50m 56s.xml">
-      <configuration name="encryptThisClassTest.test" configurationId="JUnit" />
+    <history-entry file="CheckDigitTest - 2019.03.07 at 16h 50m 43s.xml">
+      <configuration name="CheckDigitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="encryptThisClassTest_test - 2019.03.04 at 17h 51m 18s.xml">
-      <configuration name="encryptThisClassTest.test" configurationId="JUnit" />
+    <history-entry file="CheckDigitTest - 2019.03.07 at 16h 53m 24s.xml">
+      <configuration name="CheckDigitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="encryptThisClassTest_test - 2019.03.04 at 21h 11m 55s.xml">
-      <configuration name="encryptThisClassTest.test" configurationId="JUnit" />
+    <history-entry file="RemoveCharsTest - 2019.03.07 at 16h 59m 48s.xml">
+      <configuration name="RemoveCharsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DictionaryTest_Tests - 2019.03.05 at 12h 07m 48s.xml">
-      <configuration name="DictionaryTest.Tests" configurationId="JUnit" />
+    <history-entry file="RemoveCharsTest - 2019.03.07 at 17h 01m 26s.xml">
+      <configuration name="RemoveCharsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DictionaryTest_Tests - 2019.03.05 at 12h 11m 58s.xml">
-      <configuration name="DictionaryTest.Tests" configurationId="JUnit" />
+    <history-entry file="RemoveCharsTest - 2019.03.07 at 17h 08m 43s.xml">
+      <configuration name="RemoveCharsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DictionaryTest_Tests - 2019.03.05 at 12h 15m 00s.xml">
-      <configuration name="DictionaryTest.Tests" configurationId="JUnit" />
+    <history-entry file="RemoveCharsTest - 2019.03.07 at 17h 11m 14s.xml">
+      <configuration name="RemoveCharsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DictionaryTest_Tests - 2019.03.05 at 14h 47m 04s.xml">
-      <configuration name="DictionaryTest.Tests" configurationId="JUnit" />
+    <history-entry file="RemoveCharsTest - 2019.03.07 at 17h 11m 57s.xml">
+      <configuration name="RemoveCharsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GodTest - 2019.03.05 at 15h 00m 06s.xml">
-      <configuration name="GodTest" configurationId="JUnit" />
+    <history-entry file="RemoveCharsTest - 2019.03.07 at 17h 12m 09s.xml">
+      <configuration name="RemoveCharsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.20953101" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.15658094" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.17473525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,7 +364,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34154353" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34042552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,90 +395,8 @@
     <SUITE FILE_PATH="coverage/JavaLearn$FileOp.ic" NAME="FileOp Coverage Results" MODIFIED="1550555939952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/EmployeeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExceptionOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/Iterator.class" />
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/HashMap.class" />
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/Executors.class" />
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/ExecutorService.class" />
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/Scanner.class" />
     <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/ThreadPoolExecutor.class" />
     <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/util/concurrent/TimeUnit.class" />
-    <entry file="file://$PROJECT_DIR$/src/IO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/io/OutputStream.class" />
     <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/lang/System.class" />
     <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/net/URL.class" />
@@ -551,16 +483,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Network/TCPServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/Network/HttpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="69" column="48" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileOp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -577,18 +499,6 @@
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Network/ChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#717#725#0" expanded="true" />
-            <element signature="e#894#907#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -628,71 +538,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codewars/Dictionary.java">
+    <entry file="file://$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzerImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Codewars/GodTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Codewars/DictionaryTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzerImpl.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Arrays.class" />
+    <entry file="file://$PROJECT_DIR$/src/Codewars/God.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/CheckDigitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codewars/God.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="28" column="64" lean-forward="true" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codewars/Xbonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="165">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codewars/encryptThisClass.java">
+    <entry file="file://$PROJECT_DIR$/src/Codewars/squareOrSquareRootClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzerImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codewars/GodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codewars/DictionaryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="318">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -701,7 +579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Codewars/encryptThisClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="106">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -709,44 +587,167 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/Ghost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codewars/Color.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="34">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codewars/MysteryColorAnalyzerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/Codewars/CheckDigit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/squareOrSquareRootClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Arrays.class">
+    <entry file="file://$PROJECT_DIR$/src/ArrayOp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="1391" column="30" selection-start-line="1391" selection-start-column="30" selection-end-line="1391" selection-end-column="30" />
+        <state relative-caret-position="148">
+          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="52" />
           <folding>
-            <element signature="e#45740#45741#0" expanded="true" />
-            <element signature="e#45789#45790#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codewars/Ghost.java">
+    <entry file="file://$PROJECT_DIR$/src/Codewars/findEvenIndexClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-end-line="38" />
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/RemoveChars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/encryptThisClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codewars/RemoveCharsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Network/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="75" column="95" selection-start-line="75" selection-start-column="95" selection-end-line="75" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/net/HttpURLConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="641" column="28" selection-start-line="641" selection-start-column="28" selection-end-line="641" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Network/HttpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="203" column="41" selection-start-line="203" selection-start-column="41" selection-end-line="203" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/net/URLConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="572" column="18" selection-start-line="572" selection-start-column="18" selection-end-line="572" selection-end-column="18" />
+          <folding>
+            <element signature="e#20395#20396#0" expanded="true" />
+            <element signature="e#20422#20423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Baidu/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Baidu/PanAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
           </folding>
         </state>
       </provider>

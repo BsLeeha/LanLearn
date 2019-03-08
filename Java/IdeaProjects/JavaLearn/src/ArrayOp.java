@@ -1,60 +1,45 @@
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class ArrayOp {
 
-
     public static void main(String[] args) {
-        int n;
-        System.out.println("Specify the length of the array: ");
-        Scanner scanner = new Scanner(System.in);
-        n = scanner.nextInt();
+        arraySort();
+    }
 
-        int[] arr = new int[n];
+    public static void box() {
+        /*---------- array create -----------------*/
+        // array in java is also object, reference type, so need to new
+        // int[] arr = new int[]{1, 2, 3, 4};       // actually create two references(arr and anonymous)
+        int[] arr = {1, 2, 3, 4};
 
-        for (int i = 0; i < arr.length; ++i)
-            arr[i] = i;
+        /*-------------- Todo why bother to convert int[] to Integer[] -------------------*/
+        // To boxed array
+        // array stream -> boxed array stream -> boxed array
+        Integer[] brr = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+//        Integer[] crr = Arrays.stream(arr).boxed().toArray(new Integer[0]);   // Todo wrong
+        // array stream -> boxed array stream -> boxed array
+        Integer[] drr = IntStream.of(arr).boxed().toArray(Integer[]::new);
 
-        for (int elem : arr)
-            System.out.print(elem + " ");
-        System.out.println();
+        // To boxed list
+        List<Integer> lista = Arrays.stream(arr).boxed().collect(Collectors.toList());
+        List<Integer> listb = IntStream.of(arr).boxed().collect(Collectors.toList());
+    }
 
-        System.out.println(Arrays.toString(arr));
+    public static void arraySort() {
+        int[] arr = {1, 3, 4, 2, 4};
 
-        int arr1[] = {3, 2, 1, 4, 5, 6};
-        System.out.println(Arrays.toString(arr1));
+        /*----- full sum: use stream and call sum or reduce ------*/
+        int sum = IntStream.of(arr).sum();
+        int sum1 = Arrays.stream(arr).sum();
+        // identity: initial value
+        int sum2 = Arrays.stream(arr).reduce(0, (a, b) -> (a + b));
+        System.out.println(sum + " " + (sum1 == sum2 && sum == sum1));
 
-        //arr1 = {6, 5, 3, 2}; // wrong
-        arr1 = new int[]{6, 5, 3, 2};
-        System.out.println(Arrays.toString(arr1));
-
-        int arr2[] = arr1;      // same array
-        System.out.println(Arrays.toString(arr2));
-
-        int arr3[] = Arrays.copyOf(arr1, arr1.length - 3);
-        System.out.println(Arrays.toString(arr3));
-
-        // command-line array
-        if (args.length == 0 || args[0].equals("-h"))
-            System.out.println("Hello,");
-        else if (args[0].equals("-g"))
-            System.out.println("Goodbye");
-        for (int i = 1; i < args.length; ++i)
-            System.out.println(args[i]);
-
-        System.out.println((int) (Math.random() * 30));
-
-        int[][] multiArr = {
-                {1, 2, 3,},
-                {4, 5, 6}
-        };
-
-        for (int[] row : multiArr) {
-            for (int val : row)
-                System.out.print(val + " ");
-            System.out.println();
-        }
-
-        System.out.println(Arrays.deepToString(multiArr));
+        int sum3 = IntStream.range(0, 3).sum();
+        System.out.println(sum3);
     }
 }

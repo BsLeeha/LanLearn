@@ -1,0 +1,21 @@
+package Codewars;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class CheckDigitTest {
+
+    CheckDigit myUtil = new CheckDigit();
+
+    @Test
+    public void test0() throws Exception
+    {
+        assertEquals(false,myUtil.isDigit("s2324"));
+    }
+    @Test
+    public void test1() throws Exception
+    {
+        assertEquals(true,myUtil.isDigit("-234.4"));
+    }
+}
