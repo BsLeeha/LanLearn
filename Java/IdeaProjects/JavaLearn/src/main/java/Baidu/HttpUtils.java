@@ -1,12 +1,13 @@
 package Baidu;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.*;
 
 public class HttpUtils {
-    // connect to url with cookie(if provided), return set-cookie in the header and the body
+    // GET connect to url with cookie(if provided), return set-cookie in the header and the body
     Map<String, String> get(String url, String cookie) {
         Map<String, String> map = new HashMap<>();
 
@@ -39,6 +40,42 @@ public class HttpUtils {
         }
 
         return map;
+    }
+
+    // POST connect to url with cookie and query parameters, return response body
+    public String post(String url, String cookie, String queryParas) {
+        String response = null;
+
+        try {
+            HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+
+            conn.setDoOutput(true);
+            conn.setDoInput(true);
+            conn.setUseCaches(false);
+            conn.setInstanceFollowRedirects(false);
+            conn.setRequestMethod("POST");
+            conn.setRequestProperty("Accept", "*/*");
+            conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134");
+            if (cookie != null)
+                conn.setRequestProperty("Cookie", cookie);
+
+            conn.connect();
+
+            try (PrintWriter out = new PrintWriter(conn.getOutputStream())) {
+                out.write(queryParas);
+            }
+
+            getHeader(conn);
+
+            try (Scanner in = new Scanner(conn.getInputStream())) {
+                response = in.next();
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return response;
     }
 
     public String getHeader(HttpURLConnection conn) {

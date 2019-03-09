@@ -1,13 +1,14 @@
 package Codewars;
 
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+
+import static junit.framework.TestCase.assertTrue;
 
 class GodTest {
     @Test
     public void makingAdam(){
         Human[] paradise = God.create();
-        assertTrue(paradise[0] instanceof Man, "Adam are a man");
+        assertTrue("Adam are a man", paradise[0] instanceof Man);
     }
 }

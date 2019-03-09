@@ -1,10 +1,10 @@
 package Codewars;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static junit.framework.TestCase.assertEquals;
 
 class squareOrSquareRootClassTest {
     @Test
