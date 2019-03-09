@@ -1,5 +1,7 @@
 package Baidu;
 
+import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
@@ -9,8 +11,11 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class PanAddress {
     private String rawUrl;
@@ -31,7 +36,7 @@ public class PanAddress {
     // return composed downloadUrl and new Cookie
     public Map<String, String> getDownloadUrl(String rawUrl, String oldCookie) {
         Map<String, String> oldMap = new HttpUtils().get(rawUrl, oldCookie);
-        Map<String, String> newMap = null;
+        Map<String, String> newMap = new HashMap<>();
 
         String newCookie = (oldCookie == null ? "" : oldCookie) + oldMap.get("Set-Cookie").split(";")[0];
         String html = oldMap.get("Body");
@@ -50,6 +55,15 @@ public class PanAddress {
     // parse the yunData.setData json and join them
     public String htmlParse(String html) {
         StringBuilder builder = new StringBuilder();
+
+        Pattern pattern = Pattern.compile("yunData.setData\\((.*?)\\);");
+        Matcher matcher = pattern.matcher(html);
+        String jsonData = null;
+
+        if (matcher.find()) {
+            jsonData = matcher.group(1);
+
+        }
 
         return builder.toString();
     }

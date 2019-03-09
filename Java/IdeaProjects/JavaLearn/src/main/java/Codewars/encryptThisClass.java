@@ -58,10 +58,10 @@ public class encryptThisClass {
 //            }
 
             result.append((str.length() == 0) ? "" : (byte)str.charAt(0) +
-                    (str.length() < 3 ? str.substring(1)
-                    : str.replaceFirst(".(.)(.*)(.)", "$3$2$1")))       // string char swap
+                (str.length() < 3 ? str.substring(1)
+                        : str.replaceFirst(".(.)(.*)(.)", "$3$2$1")))       // string char swap
                     .append(" ");
-        }
+    }
 
 //        result.deleteCharAt(result.length()-1);
 
