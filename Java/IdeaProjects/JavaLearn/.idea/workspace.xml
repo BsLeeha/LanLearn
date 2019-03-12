@@ -2,33 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f5f92a-af79-4ee1-a077-392b811a0fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaLearn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Baidu/SharePasswordCrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Multithreading/ThreadUsage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Baidu/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Baidu/HttpUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Baidu/PanAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Baidu/PanAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/CheckDigitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/CheckDigitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/DictionaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/DictionaryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/GodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/GodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/MysteryColorAnalyzerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/MysteryColorAnalyzerImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/RemoveCharsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/RemoveCharsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/XbonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/XbonacciTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/encryptThisClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/encryptThisClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/squareOrSquareRootClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/squareOrSquareRootClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Baidu/HttpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Baidu/HttpUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Baidu/PanAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Baidu/PanAddress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Codewars/CheckDigitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codewars/CheckDigitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Codewars/DictionaryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codewars/DictionaryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Codewars/GodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codewars/GodTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Codewars/MysteryColorAnalyzerImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codewars/MysteryColorAnalyzerImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Codewars/RemoveCharsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codewars/RemoveCharsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Codewars/XbonacciTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codewars/XbonacciTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Codewars/encryptThisClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codewars/encryptThisClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Codewars/squareOrSquareRootClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Codewars/squareOrSquareRootClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,12 +25,24 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Baidu/PanAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="1445">
+              <caret line="102" column="61" selection-start-line="102" selection-start-column="61" selection-end-line="102" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Baidu/SharePasswordCrack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,10 +51,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Baidu/HttpUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Multithreading/ThreadUsage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="69" column="58" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
+            <state relative-caret-position="254">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1421#1422#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FileOp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="278" column="9" selection-start-line="278" selection-start-column="9" selection-end-line="278" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,10 +77,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="-2">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Baidu/HttpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="73" column="49" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +130,8 @@
       <find>print</find>
       <find>PrintWriter</find>
       <find>length</find>
+      <find>Integer(</find>
+      <find>getDigest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,12 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Polynomial.java" />
-        <option value="$PROJECT_DIR$/src/Container/ListTest.java" />
-        <option value="$PROJECT_DIR$/src/TCPClient.java" />
-        <option value="$PROJECT_DIR$/src/Network/TCPServer.java" />
-        <option value="$PROJECT_DIR$/src/Network/TCPClient.java" />
-        <option value="$PROJECT_DIR$/src/Network/ChatClient.java" />
         <option value="$PROJECT_DIR$/src/Network/NIO.java" />
         <option value="$PROJECT_DIR$/src/ConcurrentTest.java" />
         <option value="$PROJECT_DIR$/src/FileOp.java" />
@@ -156,6 +185,12 @@
         <option value="$PROJECT_DIR$/src/main/java/GsonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Baidu/HttpUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/Baidu/PanAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Baidu/SharePasswordCrack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FileOp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Multithreading/ThreadUsage2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Multithreading/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Multithreading/ThreadUsage.java" />
       </list>
     </option>
   </component>
@@ -180,8 +215,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1099" />
-    <option name="height" value="739" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,6 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -210,11 +246,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +264,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552135174494" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552376893508" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -253,15 +295,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PanAddress">
-    <configuration name="ArrayOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ThreadUsage">
+    <configuration name="ArrayOp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayOp" />
       <module name="JavaLearn" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Network.HttpTest" />
       <module name="JavaLearn" />
       <extension name="coverage">
@@ -277,7 +319,7 @@
     <configuration name="PanAddress" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Baidu.PanAddress" />
       <module name="JavaLearn" />
-      <option name="VM_PARAMETERS" value="-DproxySet=true -DproxyHost=127.0.0.1 -DproxyPort=8888 -Djavax.net.ssl.trustStore=C:\Users\BsLee\Desktop\FiddlerRoot.cer -Djavax.net.ssl.trustStorePassword=changeit" />
+      <option name="VM_PARAMETERS" value="-DproxySet=true -DproxyHost=localhost -DproxyPort=8888" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Baidu.*" />
@@ -288,32 +330,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckDigitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SharePasswordCrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baidu.SharePasswordCrack" />
       <module name="JavaLearn" />
+      <option name="VM_PARAMETERS" value="-DproxySet=true -DproxyHost=localhost -DproxyPort=8888" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Codewars.*" />
+          <option name="PATTERN" value="Baidu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Codewars" />
-      <option name="MAIN_CLASS_NAME" value="Codewars.CheckDigitTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveCharsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Test" />
       <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Codewars.*" />
+          <option name="PATTERN" value="Multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Codewars" />
-      <option name="MAIN_CLASS_NAME" value="Codewars.RemoveCharsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="JavaLearn" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadUsage" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadUsage2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadUsage2" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -322,15 +394,19 @@
       <item itemvalue="Application.PanAddress" />
       <item itemvalue="Application.ArrayOp" />
       <item itemvalue="Application.HttpTest" />
-      <item itemvalue="JUnit.CheckDigitTest" />
-      <item itemvalue="JUnit.RemoveCharsTest" />
+      <item itemvalue="Application.SharePasswordCrack" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ThreadUsage" />
+      <item itemvalue="Application.ThreadUsage2" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpTest" />
-        <item itemvalue="Application.ArrayOp" />
-        <item itemvalue="JUnit.RemoveCharsTest" />
-        <item itemvalue="JUnit.CheckDigitTest" />
+        <item itemvalue="Application.ThreadUsage" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.ThreadUsage2" />
+        <item itemvalue="Application.SharePasswordCrack" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +458,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.15885022" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.17246597" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.17473525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,7 +472,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -422,27 +498,6 @@
     <SUITE FILE_PATH="coverage/JavaLearn$FileOp.ic" NAME="FileOp Coverage Results" MODIFIED="1550555939952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/lang/System.class" />
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/net/URL.class" />
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/sun/net/www/protocol/http/HttpURLConnection.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-12-openjdk-amd64!/java.base/java/io/File.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SocketClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HttpDownloader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -507,16 +562,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Network/TCPServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/FileOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Network/ChatClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-141">
@@ -807,15 +852,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="255">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="831" column="27" selection-start-line="831" selection-start-column="27" selection-end-line="831" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Baidu/PanAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="1445">
+          <caret line="102" column="61" selection-start-line="102" selection-start-column="61" selection-end-line="102" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -824,10 +876,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Baidu/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="69" column="58" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
+        <state relative-caret-position="1173">
+          <caret line="73" column="49" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Multithreading/ThreadUsage2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Multithreading/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FileOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="278" column="9" selection-start-line="278" selection-start-column="9" selection-end-line="278" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Baidu/SharePasswordCrack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Multithreading/ThreadUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
           </folding>
         </state>
       </provider>

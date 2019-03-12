@@ -1,25 +1,42 @@
 import java.util.Objects;
 
-class A {
-    public boolean equals(A a) {
-        System.out.println("A");
-        return false;
-    }
+class Student {
+    private String name;
 
-    public boolean equals(Object o) {
-        System.out.println("Object");
-        return false;
+    public Student(String name) {
+        this.name = name;
+    }
+}
+
+class Boy extends Student {
+    public Boy(String name) {
+        super(name);
     }
 }
 
 public class Test {
-    public static void main(String[] args) {
-        A a = new A();
-        Object o = a;
-        o.equals(o);
-        a.equals(o);
-        o.equals(a);
-        a.equals(a);
+    public static void main(String[] args) throws ClassNotFoundException {
+        Student student = new Boy("lee");
+        Class aClass = student.getClass();
+        Class bClass = Class.forName("Student");
+        System.out.println(bClass.getName());
+    }
+}
 
+class StaticTest {
+    private int a = 10;
+
+    public static void main(String[] args) {
+        new StaticTest().run();
+    }
+
+    public void run() {
+        new Inner().show();
+    }
+
+    protected class Inner {
+        public void show() {
+            System.out.println(a);
+        }
     }
 }

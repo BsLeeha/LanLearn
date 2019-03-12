@@ -13,9 +13,13 @@ public class HttpUtils {
 
         try {
             HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
-            conn.setRequestProperty("Accept", "*/*");
-            conn.setRequestProperty("Connection", "Keep-Alive");
+            conn.setRequestProperty("Cache-Control", "max-age=0");
             conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134");
+            conn.setRequestProperty("Accept-Language", "en-US,en;q=0.8,zh-Hans-CN;q=0.5,zh-Hans;q=0.3");
+            conn.setRequestProperty("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
+            conn.setRequestProperty("Upgrade-Insecure-Requests", "1");
+            conn.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
+            conn.setRequestProperty("Connection", "Keep-Alive");
             conn.setConnectTimeout(3000);
             conn.setReadTimeout(3000);
             if (cookie != null)
@@ -27,7 +31,7 @@ public class HttpUtils {
                 System.out.println("Response Code Error: " + conn.getResponseCode());
             }
 
-//            System.out.println(getHeader(conn));
+            System.out.println(getHeader(conn));
 
             map.put("Set-Cookie", conn.getHeaderField("Set-Cookie"));
 
@@ -43,11 +47,13 @@ public class HttpUtils {
     }
 
     // POST connect to url with cookie and query parameters, return response body
-    public String post(String url, String cookie, String queryParas) {
+    public String post(Map<String, String> parameters) {
         String response = null;
 
         try {
-            HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+            if (!parameters.containsKey("Url"))
+                System.err.println("POST ERROR: please provide an url!");
+            HttpURLConnection conn = (HttpURLConnection) new URL(parameters.get("Url")).openConnection();
 
             conn.setDoOutput(true);
             conn.setDoInput(true);
@@ -56,16 +62,19 @@ public class HttpUtils {
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Accept", "*/*");
             conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134");
-            if (cookie != null)
-                conn.setRequestProperty("Cookie", cookie);
+            if (parameters.containsKey("Referer"))
+                conn.setRequestProperty("Referer", parameters.get("Referer"));
+            if (parameters.containsKey("Cookie"))
+                conn.setRequestProperty("Cookie", parameters.get("Cookie"));
 
             conn.connect();
 
             try (PrintWriter out = new PrintWriter(conn.getOutputStream())) {
-                out.write(queryParas);
+                if (parameters.containsKey("PostMessage") )
+                    out.write(parameters.get("PostMessage"));
             }
 
-            getHeader(conn);
+//            getHeader(conn);
 
             try (Scanner in = new Scanner(conn.getInputStream())) {
                 response = in.next();
