@@ -2,9 +2,12 @@
 // NIO(JDK7): Files, Path: file cp, mv, recursively iterate, delete
 
 import java.io.*;
+import java.lang.reflect.Array;
 import java.nio.Buffer;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -304,8 +307,14 @@ class FileSystemTest {
 
 public class FileOp {
     public static void main(String[] args) {
+        File dir = new File(".");
+        File[] files = dir.listFiles((dirs, name) -> name.endsWith(".html"));
 
-        FileTest.run();
+        Arrays.sort(files, ((o1, o2) -> o1.getName().compareTo(o2.getName())));
+
+        for (File file : files) {
+            out.println(file);
+        }
     }
 
 

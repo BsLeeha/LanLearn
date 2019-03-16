@@ -7,12 +7,12 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SharePasswordCrack {
+public class ShareDownload {
     private String rawUrl;
     private int threadNumber;
 
     public static void main(String[] args) {
-        SharePasswordCrack crack = new SharePasswordCrack();
+        ShareDownload crack = new ShareDownload();
         crack.rawUrl = "https://pan.baidu.com/share/init?surl=j4jkC12bt1lV_aBgx74qpQ";
         crack.threadNumber = 2;
         crack.passwordGenerate();

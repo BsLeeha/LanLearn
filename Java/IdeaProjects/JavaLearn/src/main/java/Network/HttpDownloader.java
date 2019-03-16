@@ -1,8 +1,7 @@
+package Network;
+
 import java.io.*;
 import java.net.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
@@ -28,10 +27,10 @@ public class HttpDownloader {
     }
 
     public HttpDownloader(String url, String path, int threadNum, int timeOut) throws MalformedURLException {
-        this.url = new URL(url);
-        this.localFile = new File(path);
-        this.threadNum = threadNum;
-        this.timeOut = timeOut;
+            this.url = new URL(url);
+            this.localFile = new File(path);
+            this.threadNum = threadNum;
+            this.timeOut = timeOut;
 
         try {
             if (localFile.exists())
