@@ -219,15 +219,15 @@ public class HttpDownloader {
         }
 
         @Override
-        public void run() {
-            boolean finished = false;
+            public void run() {
+                boolean finished = false;
 
-            while (!finished) {
-                finished = connDown();
+                while (!finished) {
+                    finished = connDown();
 
-                if (!finished)
-                    System.out.println("Retry to download part " + id);
-            }
+                    if (!finished)
+                        System.out.println("Retry to download part " + id);
+                }
 
             System.out.println("Downloaded part " + id + ", part size: " + unify(tempFile.length()));
             workingThreads.decrementAndGet();

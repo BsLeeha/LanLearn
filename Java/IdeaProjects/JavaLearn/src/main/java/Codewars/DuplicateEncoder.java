@@ -4,8 +4,6 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class DuplicateEncoder {
-    private boolean a = 1;
-    private int a+=2;
     static String encode(String word){
         StringBuilder sb = new StringBuilder();
 
@@ -26,9 +24,5 @@ public class DuplicateEncoder {
 
     public static void main(String[] args) {
         System.out.println(encode("Prespecialized"));
-        int a=2;
-        a+=2;
-        a = a+2;
-        a++;
     }
 }
