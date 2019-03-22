@@ -1,3 +1,4 @@
+package Concurrent;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +43,7 @@ class WebCrawl {
 }
 
 /*
- * ---------------- Multithreading Frameworks ---------------------------
+ * ---------------- Concurrent Frameworks ---------------------------
  */
 
 /*
