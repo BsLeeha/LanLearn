@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/Generic/DynamicArray.java" line="22" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d4f5f92a-af79-4ee1-a077-392b811a0fea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generic/SimpleGenericClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codewars/DuplicateEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codewars/DuplicateEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CollectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmployeeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExceptionOp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExceptionOp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GsonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polynomial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReflectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SocketClientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Generic/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generic/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CollectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConsoleOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EmployeeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExceptionOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Generic/DynamicArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Generic/DynamicArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GsonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Polynomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReflectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SocketClientTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,61 +37,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Codewars/DuplicateEncoder.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Generic/DynamicArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="288">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#846#876#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ArrayOp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Basic.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StringOp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Codewars/DuplicateEncoderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="357">
+              <caret line="420" column="27" selection-start-line="420" selection-start-column="27" selection-end-line="420" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#15526#15556#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Generic/SimpleGenericClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="114" column="23" lean-forward="true" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
+              <folding>
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1497#1498#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1582#1583#0" expanded="true" />
+                <element signature="e#1885#1886#0" expanded="true" />
+                <element signature="e#1917#1918#0" expanded="true" />
+                <element signature="e#1948#1949#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+                <element signature="e#2555#2556#0" expanded="true" />
+                <element signature="e#2591#2592#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,8 +99,8 @@
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -124,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Codewars/RemoveChars.java" />
         <option value="$PROJECT_DIR$/src/Codewars/findEvenIndexClass.java" />
         <option value="$PROJECT_DIR$/src/ArrayOp.java" />
         <option value="$PROJECT_DIR$/src/Network/HttpTest.java" />
@@ -159,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/main/java/OOP/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/java/OOP/Point.java" />
         <option value="$PROJECT_DIR$/src/main/java/OOP/MyComparable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Generic/DynamicArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/Codewars/MexicanWaveTest.groovy" />
         <option value="$PROJECT_DIR$/src/test/java/Codewars/MexicanWaveTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
@@ -175,6 +174,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Polynomial.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayOp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Multithreading/ThreadUsage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Generic/SimpleGenericClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Generic/DynamicArray.java" />
       </list>
     </option>
   </component>
@@ -210,6 +211,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,14 +244,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Multithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,14 +257,14 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552812865256" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553217488832" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="D:/pdown-core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -293,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuplicateEncoder">
+  <component name="RunManager" selected="Application.DynamicArray">
     <configuration name="ArrayOp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayOp" />
       <module name="JavaLearn" />
@@ -307,6 +308,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.DynamicArray" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,6 +368,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleGenericClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.SimpleGenericClass" />
+      <module name="JavaLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DuplicateEncoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLearn" />
       <extension name="coverage">
@@ -369,54 +396,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MexicanWaveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codewars" />
-      <option name="MAIN_CLASS_NAME" value="Codewars.MexicanWaveTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MexicanWaveTest.basicTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codewars" />
-      <option name="MAIN_CLASS_NAME" value="Codewars.MexicanWaveTest" />
-      <option name="METHOD_NAME" value="basicTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ArrayOp" />
       <item itemvalue="Application.HttpTest" />
       <item itemvalue="Application.PanAddress" />
       <item itemvalue="Application.MexicanWave" />
       <item itemvalue="Application.DuplicateEncoder" />
-      <item itemvalue="JUnit.MexicanWaveTest" />
-      <item itemvalue="JUnit.MexicanWaveTest.basicTest1" />
       <item itemvalue="JUnit.DuplicateEncoderTest" />
+      <item itemvalue="Application.SimpleGenericClass" />
+      <item itemvalue="Application.DynamicArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicArray" />
+        <item itemvalue="Application.SimpleGenericClass" />
         <item itemvalue="Application.DuplicateEncoder" />
         <item itemvalue="JUnit.DuplicateEncoderTest" />
         <item itemvalue="Application.MexicanWave" />
-        <item itemvalue="JUnit.MexicanWaveTest" />
-        <item itemvalue="JUnit.MexicanWaveTest.basicTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -467,9 +463,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.18683812" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.18986385" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.17473525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -538,14 +533,6 @@
     <SUITE FILE_PATH="coverage/JavaLearn$FileOp.ic" NAME="FileOp Coverage Results" MODIFIED="1550555939952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="831" column="27" selection-start-line="831" selection-start-column="27" selection-end-line="831" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Multithreading/ThreadUsage2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Multithreading/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Network/ChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -568,20 +555,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Network/HttpDownload.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Generic/DynamicArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OOP/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -834,6 +807,16 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Polynomial.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ReflectionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SocketClientTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Multithreading/ThreadUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Codewars/DuplicateEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -875,20 +858,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Multithreading/ThreadUsage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayOp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generic/SimpleGenericClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="114" column="23" lean-forward="true" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
+          <folding>
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1582#1583#0" expanded="true" />
+            <element signature="e#1885#1886#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2555#2556#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="420" column="27" selection-start-line="420" selection-start-column="27" selection-end-line="420" selection-end-column="27" />
+          <folding>
+            <element signature="e#15526#15556#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generic/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#846#876#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
