@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- bean 作用域：
+    singleton：单例，默认
+    prototype：多例
+    其它不用
+    -->
+
+    <!-- IOC 由 Spring 去 new 对象 -->
+    <bean id="userService" class="me.akaada.service.UserServiceImpl" scope="prototype">
+        <!--2. DI 注入属性-->
+        <property name="name" value="lee"> </property>
+    </bean>
+</beans>

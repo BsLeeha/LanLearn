@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--in spring xsd-config api, two dependent types: dtd-style and scheme-style, we use scheme-style -->
+
+    <!--离线配置 xml 文件的提示：根据上面的地址保存本地 xsd 文件，settings 里面设置 xsd 就可以-->
+
+    <!--
+        Spring 内部创建对象原理：
+            1. 解析 xml 文件，获取类名、id、属性；
+            2. 通过反射，用类型创建对象；
+            3. 给创建的对象赋值
+    -->
+
+    <!-- 装配 bean 的三种方式，装配 bean：在 xml 中写一个 bean 标签 -->
+
+    <!--1. new 实现类-->
+    <bean id="userService" class="me.akaada.service.UserServiceImpl">
+        <!-- dependency inject: auto call set method to set properties -->
+        <property name="name" value="lee"> </property>
+    </bean>
+
+
+    <!--2. 调用静态工厂方法-->
+    <bean id="userService1" class="me.akaada.service.UserServiceFactory" factory-method="createUserService" >
+    </bean>
+
+    <!--3. 调用实例工厂方法-->
+    <!--static 去掉就行，先创建一个工厂对象，再调用-->
+    <bean id="factory" class="me.akaada.service.UserServiceFactory1" ></bean>
+
+    <bean id="userService2" factory-bean="factory" factory-method="createUserService"></bean>
+
+</beans>
