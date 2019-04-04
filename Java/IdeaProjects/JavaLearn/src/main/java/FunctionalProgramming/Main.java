@@ -1,16 +1,12 @@
 package FunctionalProgramming;
 
-import OOP.MyComparable;
-
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FilenameFilter;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 abstract class MyPredicate<T>{
     abstract boolean test(T t) ;

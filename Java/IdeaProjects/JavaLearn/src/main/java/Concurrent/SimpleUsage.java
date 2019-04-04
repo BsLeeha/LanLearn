@@ -7,8 +7,6 @@ package Concurrent;
  */
 
 
-import java.util.Arrays;
-
 public class SimpleUsage {
 
     private boolean flag = false;

@@ -1,10 +1,8 @@
 package Codewars;
 
-import static org.junit.Assert.*;
-
 import static org.junit.Assert.assertArrayEquals;
 import org.junit.Test;
-import org.junit.runners.JUnit4;
+
 import java.util.Arrays;
 
 public class MexicanWaveTest {

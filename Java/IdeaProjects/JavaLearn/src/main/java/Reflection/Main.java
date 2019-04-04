@@ -1,29 +1,24 @@
 package Reflection;
 
-import java.lang.reflect.Field;
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.reflect.Method;
+import java.util.Properties;
 
 public class Main {
 
-    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
+    public static void main(String[] args) throws Exception {
+        Properties properties = new Properties();
+        ClassLoader classLoader = Main.class.getClassLoader();
+        InputStream in = classLoader.getResourceAsStream("pro.properties");
+        properties.load(in);
 
-        Class personClass = Person.class;
+        String className = properties.getProperty("className");
+        String methodName = properties.getProperty("methodName");
 
-        Person person = new Person("lee", 23);
-
-        // get the value of the specified public field of an object
-        int high = (int) personClass.getField("high").get(new Person("lee", 23));
-        System.out.println(high);
-
-        // set the value of the specified public field of an object
-        personClass.getField("high").set(person, 22);
-        System.out.println(person);
-
-        // get private field
-        Field ageFiled = personClass.getDeclaredField("age");
-
-        ageFiled.setAccessible(true);
-
-        int age = (int) ageFiled.get(person);
-        System.out.println(age);
+        Class aClass = Class.forName(className);
+        Object obj = aClass.newInstance();
+        Method method = aClass.getMethod(methodName);
+        method.invoke(obj);
     }
 }

@@ -1,7 +1,5 @@
 package Generic;
 
-import oracle.jrockit.jfr.StringConstantPool;
-
 /*
  * 类型参数的缺点：类型不能为基本类型，必须用其包装类
  */

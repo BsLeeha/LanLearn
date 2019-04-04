@@ -2,20 +2,9 @@ package Baidu;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.PrintWriter;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

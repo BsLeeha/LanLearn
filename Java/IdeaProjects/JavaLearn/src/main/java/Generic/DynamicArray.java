@@ -1,6 +1,5 @@
 package Generic;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class DynamicArray<T> {

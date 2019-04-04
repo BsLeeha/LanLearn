@@ -2,9 +2,7 @@ package Reflection;
 
 public class Person {
     private String name;
-    private int age;
-
-    public int high;
+    private int    age;
 
     public Person(String name, int age) {
         this.name = name;
@@ -12,19 +10,11 @@ public class Person {
     }
 
     public String getName() {
+        System.out.println("get name!");
         return name;
     }
 
     public int getAge() {
         return age;
-    }
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", high=" + high +
-                '}';
     }
 }

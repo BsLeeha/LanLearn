@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="UserInfoManage:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="622758de-7d5b-481e-a786-68c6017526e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Annotation/AnnoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Annotation/MyAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Reflection/pro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/servlets/ServletDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/akaada/userInfoManage/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/akaada/web/servlet/UserListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/.idea/JavaLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/.idea/JavaLearn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/src/main/java/Baidu/PanAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Baidu/PanAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/src/main/java/Concurrent/SimpleUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Concurrent/SimpleUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/src/main/java/Container/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Container/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/src/main/java/FunctionalProgramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/FunctionalProgramming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/src/main/java/Generic/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Generic/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/src/main/java/Generic/SimpleGenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Generic/SimpleGenericClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/src/main/java/Network/HttpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Network/HttpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/src/main/java/Reflection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Reflection/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/src/main/java/Reflection/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/src/main/java/Reflection/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/src/test/java/Codewars/MexicanWaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/src/test/java/Codewars/MexicanWaveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Baidu/PanAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Baidu/PanAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Concurrent/SimpleUsage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Concurrent/SimpleUsage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Concurrent/SimpleUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Concurrent/SimpleUsage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Container/ArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Container/ArrayListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Container/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Container/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/FunctionalProgramming/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/FunctionalProgramming/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/FunctionalProgramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/FunctionalProgramming/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/FunctionalProgramming/MyPredicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/FunctionalProgramming/MyPredicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/Child2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/Child2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/DynamicArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/DynamicArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/GenericUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/GenericUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/InGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/InGeneric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/InObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/InObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/NumberPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/NumberPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/SimpleGenericClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Generic/SimpleGenericClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Network/HttpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Network/HttpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Network/PostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Network/PostTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Network/ResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Network/ResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Network/Usage1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Network/Usage1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Network/Usage2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Network/Usage2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Reflection/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Reflection/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/classes/Reflection/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/classes/Reflection/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaLearn/target/test-classes/Codewars/MexicanWaveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLearn/target/test-classes/Codewars/MexicanWaveTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="79" lean-forward="true" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/akaada/web/servlet/UserListServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/akaada/userInfoManage/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1107#1108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/me/akaada/userInfoManage/User.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/me/akaada/web/servlet/UserListServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="375" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UserInfoManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserInfoManage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserInfoManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserInfoManage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserInfoManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserInfoManage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="akaada" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserInfoManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserInfoManage" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554392089225" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LanLearn\Java\IdeaProjects\UserInfoManage\web" />
+      <recent name="D:\LanLearn\Java\IdeaProjects\UserInfoManage\web\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.index.html">
+    <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/index.html" />
+      <deployment>
+        <artifact name="UserInfoManage:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_html_UserInfoManage" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3211" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="UserInfoManage:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/index.jsp" />
+      <deployment>
+        <artifact name="UserInfoManage:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_UserInfoManage" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3183" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="UserInfoManage:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.index.html" />
+      <item itemvalue="Tomcat Server.index.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.html" />
+        <item itemvalue="Tomcat Server.index.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="622758de-7d5b-481e-a786-68c6017526e7" name="Default Changelist" comment="" />
+      <created>1554390682929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554390682929</updated>
+      <workItem from="1554390690236" duration="1393000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1393000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" id="Web" sideWeight="0.5008183" side_tool="true" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5646481" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/akaada/userInfoManage/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="79" lean-forward="true" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/akaada/web/servlet/UserListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
